@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="root" prefHeight="623.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainPageController">
+   <children>
+      <VBox prefHeight="623.0" prefWidth="980.0" spacing="20.0">
+         <children>
+            <Label style="-fx-font-weight: bold;" text="Disk Scheduling" />
+            <HBox prefHeight="337.0" prefWidth="715.0">
+               <children>
+                  <TableView fx:id="allDiscsTable" prefHeight="307.0" prefWidth="800.0">
+                  </TableView>
+               </children>
+               <padding>
+                  <Insets top="30.0" />
+               </padding>
+            </HBox>
+            <Button fx:id="showBtn" mnemonicParsing="false" style="-fx-background-color: #60f140;" text="Show" />
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
